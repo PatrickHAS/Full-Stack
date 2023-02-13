@@ -2,6 +2,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { IRegisterData, useRegisterContext } from "../../contexts/register";
 import { formRegisterSchema } from "../../validator/schema";
+import { BsFillBackspaceFill } from "react-icons/bs";
 import {
   HeaderContainer,
   LabelDiv,
@@ -25,7 +26,9 @@ const Register = () => {
       <HeaderContainer>
         <TitleBack>
           <h1>Your Contacts</h1>
-          <button onClick={() => navigate("/")}>Voltar</button>
+          <button onClick={() => navigate("/")}>
+            <BsFillBackspaceFill />
+          </button>
         </TitleBack>
       </HeaderContainer>
       <RegisterContainer>

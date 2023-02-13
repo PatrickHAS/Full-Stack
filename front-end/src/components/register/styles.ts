@@ -27,10 +27,10 @@ export const TitleBack = styled.div`
   }
 
   button {
-    font-size: 10px;
+    font-size: 15px;
 
-    width: 59.54px;
-    height: 31.95px;
+    width: 40px;
+    padding: 5px;
 
     background: #cf11f5;
     color: white;
@@ -51,10 +51,10 @@ export const TitleBack = styled.div`
     }
 
     button {
-      font-size: 12px;
+      font-size: 16px;
 
-      width: 69.54px;
-      height: 38.95px;
+      width: 42px;
+      padding: 10px;
     }
   }
 
